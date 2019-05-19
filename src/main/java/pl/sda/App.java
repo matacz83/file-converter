@@ -12,8 +12,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        String input = "C:\\Users\\mmata\\IdeaProjects\\converter\\persons.json";
-        String output = "C:\\Users\\mmata\\IdeaProjects\\converter\\PersonsProducedFromJsonBySDAFileConverter.csv";
+        String input = "C:\\Users\\mmata\\IdeaProjects\\converter\\persons.xlsx";
+        String output = "C:\\Users\\mmata\\IdeaProjects\\converter\\PersonsProducedFromExcelBySDAFileConverter.json";
 
         FileReaderFactory readerFactory = new FileReaderFactory();
         FileWriterFactory writerFactory = new FileWriterFactory();
