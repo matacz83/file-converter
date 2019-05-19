@@ -15,13 +15,7 @@ public class App
         String input = "C:\\Users\\mmata\\IdeaProjects\\converter\\cars.csv";
         String output = "C:\\Users\\mmata\\IdeaProjects\\converter\\CarsProducedFromJsonBySDAFileConverter.xlsx";
 
-        FileReaderFactory readerFactory = new FileReaderFactory();
-        FileWriterFactory writerFactory = new FileWriterFactory();
-
-        SDAFileReader reader = readerFactory.produce(input);
-        SDAFileWriter writer = writerFactory.produce(output);
-
-        List<Map<String, String>> records = reader.read(input);
-        writer.write(records, output);
+        SDAFileConverter converter = new SDAFileConverter();
+        converter.convert(input, output);
     }
 }
