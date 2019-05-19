@@ -1,12 +1,6 @@
 package pl.sda;
 
-import pl.sda.readers.FileReaderFactory;
-import pl.sda.readers.SDAFileReader;
-import pl.sda.writers.FileWriterFactory;
-import pl.sda.writers.SDAFileWriter;
-
-import java.util.List;
-import java.util.Map;
+import pl.sda.utils.SDAFileConverter;
 
 public class App
 {

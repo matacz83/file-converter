@@ -1,3 +1,5 @@
+package pl.sda.utils;
+
 import pl.sda.readers.FileReaderFactory;
 import pl.sda.readers.SDAFileReader;
 import pl.sda.writers.FileWriterFactory;
